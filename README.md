@@ -4,13 +4,13 @@ This API gives a list of customers in the Cloud Datastore DB. The usage is getCu
 This API is simple and built with NodeJS with routing to DB contaning a sample table
 
 ## Infrastructure
-GCP App Engine + Google Datastore
+GCP (App Engine + Google Datastore + NodeJS + HTML)
 
 ## Coding Language: 
 Javascript with NodeJS + express
 
 ## Flow of data:
-Datastore already gets populated by a sample database coded in connector
+noSQL DB(Form kind) already gets populated by a sample database coded in connector. The API lists the DB content
 
 ## Usage:
 To test this code on GCP, the file entry-ticket.env needs to be modified with the required data. the connector.JS connects the datastore then. 
