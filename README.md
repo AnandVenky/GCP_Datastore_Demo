@@ -1,10 +1,12 @@
 # Summary
 This API gives a list of customers in the Cloud Datastore DB. 
 The usage is:
-getCustomers(): Displays all customers
-getCustomers(id): Filters the customer list with ID matching in the datastore
-addCustomers(id, name, email, age): Adds a new customer to the db
-deleteCustomers(id): deletes the specific customer
+* getCustomers(): Displays all customers
+* getCustomers(id): Filters the customer list with ID matching in the datastore
+* addCustomers(id, name, email, age): Adds a new customer to the db
+* deleteCustomers(id): deletes the specific customer
+* Oauth is used for authenticating the user if any user login is planned further
+
 
 End points for the result on localhost
 Display all customers
